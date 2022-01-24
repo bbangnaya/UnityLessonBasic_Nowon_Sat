@@ -1,0 +1,16 @@
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.exe
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.deps.json
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.runtimeconfig.json
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.runtimeconfig.dev.json
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.dll
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\ref\UnityLesson_CSharp_Variable.dll
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\bin\Debug\net5.0\UnityLesson_CSharp_Variable.pdb
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.csproj.AssemblyReference.cache
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.AssemblyInfoInputs.cache
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.AssemblyInfo.cs
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.csproj.CoreCompileInputs.cache
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.dll
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\ref\UnityLesson_CSharp_Variable.dll
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.pdb
+C:\Users\Jang\source\repos\UnityLesson_CSharp_Variable\obj\Debug\net5.0\UnityLesson_CSharp_Variable.genruntimeconfig.cache
