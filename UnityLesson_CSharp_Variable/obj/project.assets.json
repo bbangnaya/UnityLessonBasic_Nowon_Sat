@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jang\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jang\\source\\repos\\UnityLesson_CSharp_Variable\\UnityLesson_CSharp_Variable.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp_Variable\\UnityLesson_CSharp_Variable.csproj",
       "projectName": "UnityLesson_CSharp_Variable",
-      "projectPath": "C:\\Users\\Jang\\source\\repos\\UnityLesson_CSharp_Variable\\UnityLesson_CSharp_Variable.csproj",
-      "packagesPath": "C:\\Users\\Jang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jang\\source\\repos\\UnityLesson_CSharp_Variable\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp_Variable\\UnityLesson_CSharp_Variable.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp_Variable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

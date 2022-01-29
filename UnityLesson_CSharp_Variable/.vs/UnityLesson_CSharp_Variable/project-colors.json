@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f76c9a2e-fd00-4d9e-93d3-11dd5cf12c9a": {
+      "ProjectGuid": "f76c9a2e-fd00-4d9e-93d3-11dd5cf12c9a",
+      "DisplayName": "UnityLesson_CSharp_Variable",
+      "ColorIndex": 0
+    },
+    "4f8bae88-fd93-4e33-83a1-94d2c774849a": {
+      "ProjectGuid": "4f8bae88-fd93-4e33-83a1-94d2c774849a",
+      "DisplayName": "UnityLesson_CSharp_Variable",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

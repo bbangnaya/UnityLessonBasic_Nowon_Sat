@@ -4,6 +4,7 @@ namespace UnityLesson_CSharp_If
 {
     internal class Program
     {
+        // static 함수에서는 static 변수 / static 함수만 사용가능하다
         static bool condition1 = true;
         static bool condition2 = true;
         static bool condition3;
