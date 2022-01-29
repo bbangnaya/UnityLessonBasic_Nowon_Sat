@@ -5,7 +5,12 @@
       "ProjectGuid": "f601ee23-691e-4e13-a299-2dee67ece400",
       "DisplayName": "UnityLesson_CSharp_If",
       "ColorIndex": 0
+    },
+    "d088df88-84c7-4294-b203-28dee007c23a": {
+      "ProjectGuid": "d088df88-84c7-4294-b203-28dee007c23a",
+      "DisplayName": "UnityLesson_CSharp_If",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

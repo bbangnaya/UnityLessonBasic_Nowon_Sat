@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "UnityLesson_CSharp_Method/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/UnityLesson_CSharp_Method.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityLesson_CSharp_Method.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UnityLesson_CSharp_Method/1.0.0": {
+      "type": "project",
+      "path": "../../UnityLesson_CSharp_Method/UnityLesson_CSharp_Method.csproj",
+      "msbuildProject": "../../UnityLesson_CSharp_Method/UnityLesson_CSharp_Method.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "UnityLesson_CSharp_Method >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp_Method\\UnityLesson_CSharp_Method.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp_Method\\UnityLesson_CSharp_Method.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
