@@ -40,7 +40,12 @@
       "ProjectGuid": "3add3196-f478-496d-af0c-3f2db2487cec",
       "DisplayName": "UnityLesson_CSharp_Operators",
       "ColorIndex": 7
+    },
+    "03babf08-d852-4473-8130-d9caa774b006": {
+      "ProjectGuid": "03babf08-d852-4473-8130-d9caa774b006",
+      "DisplayName": "UnityLesson_CSharp_ClassObjectInstance",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

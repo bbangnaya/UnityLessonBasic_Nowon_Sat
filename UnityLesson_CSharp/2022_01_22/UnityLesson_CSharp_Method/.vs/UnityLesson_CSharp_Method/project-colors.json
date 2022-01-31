@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0251e63-4bf3-408b-91e1-d52e0d06d093": {
+      "ProjectGuid": "c0251e63-4bf3-408b-91e1-d52e0d06d093",
+      "DisplayName": "UnityLesson_CSharp_Method",
+      "ColorIndex": 0
+    },
+    "34b7e167-001b-49f7-a910-234b81049ba0": {
+      "ProjectGuid": "34b7e167-001b-49f7-a910-234b81049ba0",
+      "DisplayName": "UnityLesson_CSharp_ClassIncludingVariablesFunctions",
+      "ColorIndex": 1
+    },
+    "03a37dc5-5302-4a84-9061-a2ec64c72931": {
+      "ProjectGuid": "03a37dc5-5302-4a84-9061-a2ec64c72931",
+      "DisplayName": "UnityLesson_CSharp_ClassObjectInstance",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
