@@ -5,10 +5,6 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityLesson_CSharp_Method", "UnityLesson_CSharp_Method.csproj", "{C0251E63-4BF3-408B-91E1-D52E0D06D093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_ClassIncludingVariablesFunctions", "..\UnityLesson_CSharp\UnityLesson_CSharp_ClassIncludingVariablesFunctions\UnityLesson_CSharp_ClassIncludingVariablesFunctions.csproj", "{34B7E167-001B-49F7-A910-234B81049BA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_ClassObjectInstance", "..\UnityLesson_CSharp\UnityLesson_CSharp_ClassObjectInstance\UnityLesson_CSharp_ClassObjectInstance.csproj", "{03A37DC5-5302-4A84-9061-A2EC64C72931}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{C0251E63-4BF3-408B-91E1-D52E0D06D093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0251E63-4BF3-408B-91E1-D52E0D06D093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0251E63-4BF3-408B-91E1-D52E0D06D093}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34B7E167-001B-49F7-A910-234B81049BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34B7E167-001B-49F7-A910-234B81049BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34B7E167-001B-49F7-A910-234B81049BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34B7E167-001B-49F7-A910-234B81049BA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03A37DC5-5302-4A84-9061-A2EC64C72931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03A37DC5-5302-4A84-9061-A2EC64C72931}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03A37DC5-5302-4A84-9061-A2EC64C72931}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03A37DC5-5302-4A84-9061-A2EC64C72931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

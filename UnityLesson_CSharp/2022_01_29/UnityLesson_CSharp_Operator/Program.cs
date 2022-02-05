@@ -13,29 +13,33 @@ namespace UnityLesson_CSharp_Operator
             // 더하기 , 빼기 , 나누기(몫 반환) , 곱하기 , 나머지(몫 제외 나머지 반환)
             // =====================================================================
             // 더하기
-            c = OperatorMethods.sum(a, b);
-            c = a + b;
+            c = OperatorMethods.Sum(a, b);
             Console.WriteLine(c);
             // 빼기
-            c = a - b;
+            c = OperatorMethods.Sub(a, b);
             Console.WriteLine(c);
             // 나누기
-            c = a / b;
-            Console.WriteLine(c);
+            c = OperatorMethods.Div(a, b);
+            float af = 14.0f;
+            float bf = 6.0f;
+            float cf = 0f;
+            cf = OperatorMethods.Div(af, bf);
             // 곱하기
-            c = a * b;
+            c = OperatorMethods.Mul(a, b);
             Console.WriteLine(c);
             // 나머지
-            c = a % b;
+            c = OperatorMethods.Mod(a, b);
             Console.WriteLine(c);
 
             // 증감 연산
             // 증가 연산자, 감소 연산자
             // =====================================================================
             // 증가 연산자
-            c++; // c = c + 1;
+            c = OperatorMethods.Increase(c); // c = c + 1;
+            Console.WriteLine(c);
             // 감소 연산자
-            c--; // c = c - 1;
+            c = OperatorMethods.Decrease(c); ; // c = c - 1;
+            Console.WriteLine(c); //c=4
 
             // 관계 연산자
             // 수학에서 등호과 부등호
@@ -44,22 +48,22 @@ namespace UnityLesson_CSharp_Operator
             // =====================================================================
             bool result;
             // 같음 비교
-            result = a == b;
+            result = OperatorMethods.IsSame(a,b);
             Console.WriteLine(result);
             // 다름 비교
-            result = a != b;
+            result = OperatorMethods.IsDifferent(a, b);
             Console.WriteLine(result);
             // 크다
-            result = a > b;
+            result = OperatorMethods.IsBigger(a, b);
             Console.WriteLine(result);
             // 크거나 같다.
-            result = a >= b;
+            result = OperatorMethods.IsBiggerOrSame(a, b);
             Console.WriteLine(result);
             // 작다
-            result = a < b;
+            result = OperatorMethods.IsSmaller(a, b);
             Console.WriteLine(result);
             // 작거나 같다.
-            result = a <= b;
+            result = OperatorMethods.IsSmallerOrSame(a, b);
             Console.WriteLine(result);
 
             // 논리 연산 (논리 자료형 연산  - bool 형끼리의 연산)
@@ -91,35 +95,36 @@ namespace UnityLesson_CSharp_Operator
             // conditional or 
             // 만약에 A 가 true 이면 B의 값에 관계없이 결과값이 true 이므로 
             // 연산을 수행하지 않고 A를 반환한다.
-            result = A || B;
+            result = A || B; // 15
             // conditional and
             // 만약 A가 false면 B의 값에 관계없이 false이므로
             // 연산을 수행하지 않고 A를 반환한다.
-            result = A && B;
+            result = A && B; // 4
 
             // 비트 연산 (정보의 최소단위)
+            //
             // 비트연산을 하는 이유 : 데이터를 효율적으로 관리하기 위함
             // or, and, xor, not, shift-left, shift-right
             //===========================================
             int test = 1;
             //or
             c = a | b;
-            Console.WriteLine(c);
+            Console.WriteLine(c); 
             // and
             c = a & b;
-            Console.WriteLine(c);
+            Console.WriteLine(c); 
             // xor
             c = a ^ b;
             Console.WriteLine(c);
             // not
             c = ~a;
-            Console.WriteLine(c);
+            Console.WriteLine(c); // -15
             // shift - left
             c = a << test;
-            Console.WriteLine(c);
+            Console.WriteLine(c); // 28
             // shift - right
             c = a >> test;
-            Console.WriteLine(c);
+            Console.WriteLine(c); // 7
         }
     }
     // FSM (Finite State Machine) 유한 상태 머신

@@ -1,0 +1,12 @@
+<경우1> c=5
+a++;
+return a;
+
+<경우2> c=5
+int tmpValue = a;
+            tmpValue++;
+            return tmpValue;
+
+<경우3)> c= 4
+return a++;
+이미 a=4를 반환하고 ++을 진행하므로 그대로 반환된다.
