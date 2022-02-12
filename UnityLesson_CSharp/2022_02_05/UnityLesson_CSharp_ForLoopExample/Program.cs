@@ -12,9 +12,11 @@ namespace UnityLesson_CSharp_ForLoopExample
     {
         static void Main(string[] args)
         {
-            Orc[] arr_Orc = new Orc[10];// 10개의 오크를 담을 수 있는 배열을 생성
+            Orc[] arr_Orc = new Orc[10];            // 10개의 오크를 담을 수 있는 배열을 생성
             /*Orc orc1 = new Orc(); 이거와는 다르다.이건 인스턴스화도 한거다.new키워드를 썼다고 생성한 것이 아니다.*/
-            // 따로 지역변수를 지정하는 이유. 디버깅 방식 차이를 쉽게 확인하기 위해 따로 빼놓는 것이다. 
+
+            int length = arr_Orc.Length;            // 따로 지역변수를 지정하는 이유.
+            // 디버깅 방식 차이를 쉽게 확인하기 위해 따로 빼놓는 것이다. 
             // 가시성은 물론이며 한줄씩 디버깅하며 문제를 찾아낼때도 쉽게 찾을 수 있다.
             // 이러면 for문에 문제가 있는지 변수 선언에 문제가 있는지 쉽게 찾을 수 있다.
             for (int i = 0; i < arr_Orc.Length; i++)
@@ -38,9 +40,6 @@ namespace UnityLesson_CSharp_ForLoopExample
                     arr_Orc[i].Jump();
                 }
             }
-
-            
-
         }
         
         static private bool GetRandomBool()
@@ -48,7 +47,10 @@ namespace UnityLesson_CSharp_ForLoopExample
             Random random = new Random(); // 디버깅을 용이하게 하기 위해  
             int randomInt = random.Next(0, 2); // minValue ~ maxValue - 1 
             bool randomBool = Convert.ToBoolean(randomInt);
+            /*bool randomint = random.Next(0, 2) < 1;            // 정수형 반환
+            bool randomFloat = random.Next(0f, 1f) < 0.5f;       // 실수형 반환*/
             return randomBool;
+                       
         }
         
         public class Orc
@@ -70,9 +72,5 @@ namespace UnityLesson_CSharp_ForLoopExample
                 Console.WriteLine($"{name}(이)가 점프했다.");
             }
         }
-
-
-
-
     }
 }
