@@ -75,7 +75,7 @@ namespace UninyLesson_CSharp_Collection //동적배열
             // dictionary는 collection이고 
             // dictionary의 Keys를 가져오면 KeyCollection을 가져올 수 있고
             // dictionary의 Value를 가져오면 ValueCollection을 가져올 수 있다.
-            // 즉, dictionary자체도  key, value 각각도 foreach 구문이 가능핟.
+            // 즉, dictionary자체도  key, value 각각도 foreach 구문이 가능하다.
 
             // dictionary.Keys를 foreach 문 실행
             foreach (string sub in _dic.Keys)
@@ -105,7 +105,7 @@ namespace UninyLesson_CSharp_Collection //동적배열
             }
 
             // ----------------------------------
-            // Queue(List와 비슷하나, FIFO, First Input First Output체계이다.
+            // Queue(List와 비슷하나, FIFO, First Input First Output체계이다. 선입선출
             // ----------------------------------
             Queue<int> _queue = new Queue<int>();   // _queue는 객체를 담고있는 인스턴스
 
@@ -118,7 +118,7 @@ namespace UninyLesson_CSharp_Collection //동적배열
             Console.WriteLine(_queue.Dequeue());    // 30
 
             // ----------------------------------
-            // Stack(List와 비슷하나, LIFO, Last Input First Output체계이다. 블록쌓기
+            // Stack(List와 비슷하나, LIFO, Last Input First Output체계이다. 블록쌓기. 후입선출
             // ----------------------------------
             Stack<int> _stack = new Stack<int>();
             _stack.Push(10);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_05\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_12\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_05\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_12\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_05\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_12\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj",
         "projectName": "UnityLesson_CSharp_Structure",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_05\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_12\\UnityLesson_CSharp_Structure\\UnityLesson_CSharp_Structure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_05\\UnityLesson_CSharp_Structure\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_12\\UnityLesson_CSharp_Structure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

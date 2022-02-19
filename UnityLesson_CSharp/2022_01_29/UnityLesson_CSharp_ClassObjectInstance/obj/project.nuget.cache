@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJSFgg25WnVB5SlmMP/TNkylhUmMuUjpVtSStrxJOoE8E5AvsayTUw9nv6gOBE3wtKJpjP71gAVF4YLpHNud9A==",
+  "dgSpecHash": "F4MsAPUkKmDj+kK+uHIQAIQRyCM4qNtUmSRWWOU+HDaSY1SIqNddoK9lcKVlWjTRrnX0g4dVCdrHeGeJhmdazQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\UnityLesson_CSharp_ClassObjectInstance\\UnityLesson_CSharp_ClassObjectInstance.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_01_29\\UnityLesson_CSharp_ClassObjectInstance\\UnityLesson_CSharp_ClassObjectInstance.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

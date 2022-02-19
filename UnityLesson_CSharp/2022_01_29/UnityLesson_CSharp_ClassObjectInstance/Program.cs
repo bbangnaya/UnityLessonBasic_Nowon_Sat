@@ -27,7 +27,23 @@ namespace UnityLesson_CSharp_ClassObjectInstance
     // internal     : 같은 어셈블리 ( 같은 프로젝트 ) 에서만 접근할 수가 있다.
     // 기본적으로 접근제한자를 명시하지 않으면 private이 기본값(디폴트).
 
-    public class AA
+    class AA
     {
+        public AA()
+        {
+
+        }
+
+        public AA(int a)
+        {
+
+
+        }
+        ~AA() // 소멸자
+        {
+
+
+        }
+
     }
 }

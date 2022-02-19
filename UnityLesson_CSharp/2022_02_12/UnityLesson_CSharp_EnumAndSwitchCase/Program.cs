@@ -35,12 +35,14 @@ namespace UnityLesson_CSharp_EnumAndSwitchCase
 {
     internal class Program
     {
-        static e_PlayerState createMotion = (e_PlayerState)4; // 초기화.()안에 있는 것이 타입이고 
-        // int형이나 float형이나 모두  32비트. 하지만 32비트 중에 누가 int인지 float인지는 모른다. 
+
+        
         // 
         // casting. 자료형 변환. (e_PlayerState)1 이라 치면 공격
         // Casting 캐스팅
         // 비트정보 그대로 들고와서 타입만 변경시킴
+        static e_PlayerState createMotion = (e_PlayerState)4; // 초기화.()안에 있는 것이 타입이고
+        // int형이나 float형이나 모두  32비트. 하지만 32비트 중에 누가 int인지 float인지는 모른다. 
         static void Main(string[] args)
         {
             //Enum-bit
@@ -129,10 +131,14 @@ namespace UnityLesson_CSharp_EnumAndSwitchCase
 
             // switch - tap - 매개변수입력 - 엔터
 
+
+
+
+
             // 전사에게 동작 명령하기
             Console.Write("전사에게 명령을 내려 주세요");
             string motionInput = Console.ReadLine();
-            /*e_PlayerState motion = (e_PlayerState)Enum.Parse(typeof(e_PlayerState), motionInput);           // Enum클래스에 접근해서 parse라는 함수.자료형 변환과정
+            e_PlayerState motion = (e_PlayerState)Enum.Parse(typeof(e_PlayerState), motionInput);           // Enum클래스에 접근해서 parse라는 함수.자료형 변환과정
             switch (motion)           //다른데클릭안하고 enter치면 자동완성
             {
                 case e_PlayerState.Idle:
@@ -159,7 +165,7 @@ namespace UnityLesson_CSharp_EnumAndSwitchCase
                 default:
                     Console.WriteLine("전사는 그런거 할줄 몰라요.");
                     break;
-            }*/
+            }
 
             /*e_PlayerState motion;
             bool isparsed = Enum.Parse(motionInput, motion);
