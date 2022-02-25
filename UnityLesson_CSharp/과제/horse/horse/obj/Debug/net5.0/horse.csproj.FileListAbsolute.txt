@@ -1,0 +1,16 @@
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.exe
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.deps.json
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.runtimeconfig.json
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.runtimeconfig.dev.json
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.dll
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\ref\horse.dll
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\bin\Debug\net5.0\horse.pdb
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.dll
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\ref\horse.dll
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.pdb
+C:\Users\user\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\과제\horse\horse\obj\Debug\net5.0\horse.genruntimeconfig.cache

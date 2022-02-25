@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\2022_02_19_Practice\\2022_02_19_Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\2022_02_19_Practice\\2022_02_19_Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj",
-        "projectName": "UnityLesson_CSharp_ClassInheritance",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\2022_02_19_Practice\\2022_02_19_Practice.csproj",
+        "projectName": "2022_02_19_Practice",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\2022_02_19_Practice\\2022_02_19_Practice.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\2022_02_19_Practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

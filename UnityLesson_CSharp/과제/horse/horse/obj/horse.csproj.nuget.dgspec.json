@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\과제\\horse\\horse\\horse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\과제\\horse\\horse\\horse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj",
-        "projectName": "UnityLesson_CSharp_ClassInheritance",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\UnityLesson_CSharp_ClassInheritance.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\과제\\horse\\horse\\horse.csproj",
+        "projectName": "horse",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\과제\\horse\\horse\\horse.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\2022_02_19\\UnityLesson_CSharp_ClassInheritance\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\UnityLessonBasic_Nowon_Sat\\UnityLesson_CSharp\\과제\\horse\\horse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

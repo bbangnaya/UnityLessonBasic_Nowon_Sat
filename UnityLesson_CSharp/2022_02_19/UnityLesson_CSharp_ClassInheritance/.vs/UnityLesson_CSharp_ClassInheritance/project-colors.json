@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5253fa47-2c1a-49db-b861-63ff0c754998": {
+      "ProjectGuid": "5253fa47-2c1a-49db-b861-63ff0c754998",
+      "DisplayName": "UnityLesson_CSharp_ClassInheritance",
+      "ColorIndex": 0
+    },
+    "05dc6fb6-36b5-4768-8d57-8f42c8f203f7": {
+      "ProjectGuid": "05dc6fb6-36b5-4768-8d57-8f42c8f203f7",
+      "DisplayName": "2022_02_19_Practice",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
