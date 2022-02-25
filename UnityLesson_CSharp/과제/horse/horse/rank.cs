@@ -8,7 +8,7 @@ namespace horse
 {
     internal class rank
     {
-        public string rank;
+        public string _rank;
 
     }
 }
