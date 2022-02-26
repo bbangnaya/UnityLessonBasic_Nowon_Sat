@@ -15,7 +15,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "기타 파일",
       "ColorIndex": -1
+    },
+    "03a48b12-7da5-4b61-8578-3c9622e8e7a1": {
+      "ProjectGuid": "03a48b12-7da5-4b61-8578-3c9622e8e7a1",
+      "DisplayName": "HorseRacing",
+      "ColorIndex": 2
+    },
+    "c92149b4-6a60-4a15-bfc7-9862723be4a2": {
+      "ProjectGuid": "c92149b4-6a60-4a15-bfc7-9862723be4a2",
+      "DisplayName": "UnityLesson_CSharp_DiceGame",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

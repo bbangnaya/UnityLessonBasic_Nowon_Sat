@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.exe
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.deps.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\ref\UnityLesson_CSharp_DiceGame.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\bin\Debug\net5.0\UnityLesson_CSharp_DiceGame.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\ref\UnityLesson_CSharp_DiceGame.dll
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.pdb
+C:\Users\User\Documents\GitHub\UnityLessonBasic_Nowon_Sat\UnityLesson_CSharp\UnityLesson_CSharp_DiceGame\obj\Debug\net5.0\UnityLesson_CSharp_DiceGame.genruntimeconfig.cache

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "horse", "horse\horse.csproj", "{DC277DCA-14E5-40E0-8EFE-FAAA21BC9F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading_Example", "Threading_Example\Threading_Example.csproj", "{3DBA3556-EDBB-4DD8-ADD3-22E00041FA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading_Example", "Threading_Example\Threading_Example.csproj", "{3DBA3556-EDBB-4DD8-ADD3-22E00041FA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorseRacing", "..\..\HorseRacing\HorseRacing.csproj", "{03A48B12-7DA5-4B61-8578-3C9622E8E7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLesson_CSharp_DiceGame", "..\..\UnityLesson_CSharp_DiceGame\UnityLesson_CSharp_DiceGame.csproj", "{C92149B4-6A60-4A15-BFC7-9862723BE4A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3DBA3556-EDBB-4DD8-ADD3-22E00041FA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DBA3556-EDBB-4DD8-ADD3-22E00041FA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DBA3556-EDBB-4DD8-ADD3-22E00041FA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A48B12-7DA5-4B61-8578-3C9622E8E7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A48B12-7DA5-4B61-8578-3C9622E8E7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A48B12-7DA5-4B61-8578-3C9622E8E7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A48B12-7DA5-4B61-8578-3C9622E8E7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92149B4-6A60-4A15-BFC7-9862723BE4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92149B4-6A60-4A15-BFC7-9862723BE4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92149B4-6A60-4A15-BFC7-9862723BE4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92149B4-6A60-4A15-BFC7-9862723BE4A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
