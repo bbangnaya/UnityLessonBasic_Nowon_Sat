@@ -14,47 +14,42 @@ public class Cube : MonoBehaviour
     // 객체 자신을 반환하는 키워드(클래스 아님, cube 클래스 타입의 객체 반환)
 
     public int a = 3;
-    private Transform tr;
-
-    Vector3 move;
-
+    public Transform tr;       // transform 클래스 tr 선언
+    Vector3 move;               // 3차원 이동을 위해 unity엔진을 위한 Vector3 구조체 move 선언
 
     private void Awake()
     {
-        Debug.Log(this);
-        Debug.Log(this.gameObject);
-        Debug.Log(gameObject);
+        Debug.Log(this);            // 출력 : Cube (Cube)
+        Debug.Log(this.gameObject); // Cube (UnityEngine.GameObject)
+        Debug.Log(gameObject);      // Cube (UnityEngine.GameObject)
 
         tr = this.gameObject.GetComponent<Transform>();
         tr = gameObject.GetComponent<Transform>();
         tr = GetComponent<Transform>();
-        tr = transform;
-
-
-
-
-
+        tr = transform;     // 
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Start()        // 초기화단계
     {
 
-        tr.position = Vector3.zero;
-        transform.position = Vector3.zero;                                  // 부모클래스로 참조하는 것이므로 MonoBehaviour 참조
+        /*tr.position = Vector3.zero; */           // tr의 자식클래스 position에 접근해 원점으로 초기화
+        // tr.position = new Vector3(0,0,0); 과 동일
+        tr.position = new Vector3(0, 0.5f, 0);
+        /*transform.position = Vector3.zero;                                  // 부모클래스로 참조하는 것이므로 MonoBehaviour 참조
         GetComponent<Transform>().position = Vector3.zero;                  // 다단계
         gameObject.GetComponent<Transform>().position = Vector3.zero;       // 다단계
-        this.gameObject.GetComponent<Transform>().position = Vector3.zero;  // 다단계
+        this.gameObject.GetComponent<Transform>().position = Vector3.zero;  // 다단계*/
 
 
     }
     private void Update()
     {
-        float h = Input.GetAxis("Horizontal");
+        float h = Input.GetAxis("Horizontal");      // h에 축 Horizontal에 접근
         float v = Input.GetAxis("Vertical");
-        Debug.Log($"h = {h}, v ={v}");
-        move = new Vector3(h, 0, v);
-
+        Debug.Log($"h = {h}, v ={v}");              // 입력값 출력
+        move = new Vector3(h, 0, v);        // h와 v가 입력할 수 있는 move라는 vector3 클래스 인스턴스화  
+        // 여기까지만 입력하면 w,a,s,d를 입력시 h와 v의 값이 실시간으로 바뀐다.
     }
 
     // Update is called once per frame
@@ -68,10 +63,8 @@ public class Cube : MonoBehaviour
         // Time.deltaTime은 프레임 시간당 위치 변화량
 
         // 실시간으로 움직이는 모습
-        /*tr.position += Vector3.forward * Time.deltaTime;*/
-
+        /*tr.position += Vector3.right * Time.deltaTime;*/
+        // 방향키로 이동하는 코드
         tr.position += move * Time.fixedDeltaTime;
-
-
     }
 }
