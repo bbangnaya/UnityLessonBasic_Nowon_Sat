@@ -1,0 +1,39 @@
+1. GameObject 5 개를 동시에 전진시킨다.
+2. 전진시에 랜덤한 속도로 움직인다. 
+3. 전진시에 GameObject 의 위치가 결승점을 넘었을 경우 등수를 메긴다.
+4. GameObject 5개 모두 결승점을 넘었을 경우 달리기를 중단한다.
+5. GameObject 중 1,2,3등을 한 친구들은 각각 단상의 1,2,3 등에 위치 시킨다.
+
+1. GameObject 리스트에서 GameObject 5개를 초기화한다.					
+2. for문으로 GameObject 5개의 각각 랜덤한 전진거리를 구한다.
+프로젝트할때는 도식화하여 남긴다. flowchart.
+슈도코드는 혼자만 알아들을수 있는 것이기 때문이다.
+
+
+
+3. 전진 거리만큼 gameObject 5개를 각각 전진시킨다. 
+4. GameObject 위치가 결승점 위치보다 크다면 
+if(GameObject 위치 > 결승점 위치) 등수별 리스트에 해당 GmaObject를 추가한다.
+5. for문 끝
+6. if(등수리스트.Count >= 5)
+7. 등수 리스트 [0].position = 1등단상.position
+   등수 리스트 [1].position = 2등단상.position
+   등수 리스트 [2].position = 3등단상.position
+
+더 도식화 
+
+1. List<GameObject>에 5개 초기화
+2. for(List<GameOgject>.Count)
+	moveDistance = Random.(min,max)
+	List[i].position += moveDistance;
+	if(GameObject위치 > 결승점 위치)
+	등수별 리스트에 해당 오브젝트 추가
+	for문 끝
+
+
+
+
+
+
+게임 오브젝트에서 다른 게임 컴포넌트에 접근하는데 
+

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "91414c33-ab97-432d-a4af-cae8ddd851b4": {
+      "ProjectGuid": "91414c33-ab97-432d-a4af-cae8ddd851b4",
+      "DisplayName": "HorseRacing",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
