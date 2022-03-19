@@ -25,7 +25,7 @@ public class GamePlay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        totalPlayers = players.Count;
+        totalPlayers = players.Count;       //
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class GamePlay : MonoBehaviour
     void CheckPlayerReachedToGoalAndStopMove()
     {
         /*for(int i = 0; i < players.Count; i++)*/         // 기본상식 : F9는 디버그
-        for(int i = players.Count-1 ; i >=0 ; i--)         // for문이 큰쪽에서 작은쪽으로
+        /*for(int i = players.Count-1 ; i >=0 ; i--)         // for문이 큰쪽에서 작은쪽으로
         {
             PlayerMove playerMove = players[i].GetComponent<PlayerMove>();
             if(playerMove.distance > goal.position.z - playerStartZPos) // 재확인
@@ -52,7 +52,22 @@ public class GamePlay : MonoBehaviour
 
 
             }
+        }*/
+        for (int i = 0; i < players.Count; i++)
+        {
+            PlayerMove playerMove = players[i].GetComponent<PlayerMove>();
+            if (playerMove.distance > goal.position.z - playerStartZPos) // 재확인
+            {
+                playerMove.doMove = false;
+                // 등수 리스트에 추가
+                finishedPlayers.Add(players[i].transform);  // List 타입이 다르기 때문에 transform을 붙힌다. players[i] 
+                players.Remove(players[i]);     // i번째 리스트의 내용을 지우겠다.
+
+
+            }
         }
+       
+
     }
     // 게임이 끝났는지 여부 확인 함수
     void CheckGameIsFinished()
