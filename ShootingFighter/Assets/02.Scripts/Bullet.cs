@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     public Vector3 dir = Vector3.forward;
     public float speed = 5f;
     Transform tr;
+    public int damage;
     private void Awake() =>   
         tr = GetComponent<Transform>();     // 한줄짜리 함수는 중괄호 없이 => 로 간단하게 표현이 가능하다. 
 
@@ -31,8 +32,9 @@ public class Bullet : MonoBehaviour
         if (go.layer == LayerMask.NameToLayer("Enemy")) // 레이어가 enemy이면
         {
 
-            go.GetComponent<Enemy>().DoDestroyEffect(); // 외부 클래스 참조. 한줄짜리.
-            Destroy(go);        // go를 파괴
+            go.GetComponent<Enemy>().hp -= damage;
+                /*.DoDestroyEffect(); // 외부 클래스 참조. 한줄짜리.
+            Destroy(go);        // go를 파괴*/
             Destroy(gameObject);
         }
         
