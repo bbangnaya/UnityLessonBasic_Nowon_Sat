@@ -21,8 +21,7 @@ public class Player : MonoBehaviour
 
     // property
     private int _hp;       // 읽기만 가능, 멤버hp
-    public int hp           // 수정
-    {
+    public int hp{            // 수정
         set
         {
             if (value > 0)
@@ -32,41 +31,31 @@ public class Player : MonoBehaviour
                 _hp = 0;
                 Destroy(gameObject);
             }
-
             _hp = value;
             hpSlider.value = (float)_hp / hpMax;
             hpText.text = _hp.ToString();           // 문자열. 형변환 함수 호출.
+            // hp는 int 형인데 숫자그대로 문자형으로 바꾼다. text에 대입하기 때문이다.
         }
-
         get
         {
-
             return _hp;
         }
-
     }
 
 
-
     private int _score;
-
     public int score
     {
         set
         {
-
             _score = value;
             scoreText.text = _score.ToString();
-
         }
 
         get
         {
             return _score;
-
         }
-
-
     }
     // 수정을 자주해야하는 경우 property를 많이 쓴다.
     // 플레이어 스탯이나 점수는 property를 많이 쓴다. 

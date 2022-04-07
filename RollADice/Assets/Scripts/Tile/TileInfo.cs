@@ -6,7 +6,7 @@ public class TileInfo : MonoBehaviour
 {
     public int index;
 
-    public void TileEvent()
+    public virtual void TileEvent() // 오버라이드
     {
         Debug.Log($"Index of this Tile : {index}");
     }
