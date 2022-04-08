@@ -7,7 +7,6 @@ public class DicePlayManager : MonoBehaviour
     //싱글톤
     public static DicePlayManager instance; // 어웨이크에서 초기화
 
-
     private int currentTileIndex;       // 현재 칸 인덱스    
     private int _diceNum;       // 남은 주사위 총 개수
     // 다른 객체에 직접 접근을 꺼린다. 
@@ -106,10 +105,10 @@ public class DicePlayManager : MonoBehaviour
 
         diceNum--;
         int diceValue = Random.Range(1, 7);     // 랜덤
-        animationCoroutine = StartCoroutine(DiceAnimationUI.instance.E_DiceAnimation(diceValue,this, MovePlayer));
+        animationCoroutine = StartCoroutine(DiceAnimationUI.instance.E_DiceAnimation(diceValue, this, MovePlayer));
+        /*MovePlayer(diceValue);*/
+        
         // 애니메이션 진행중일땐 주사위 못던지도록
-/*
-        MovePlayer(diceValue);*/
     }
 
     public void RollAGoldenDice(int diceValue)      // 선택, 1. 버튼 6개 만들어서 하기
@@ -118,7 +117,8 @@ public class DicePlayManager : MonoBehaviour
         if (animationCoroutine != null) return;
 
         goldenDiceNum--;
-        animationCoroutine = StartCoroutine(DiceAnimationUI.instance.E_DiceAnimation(diceValue,this, MovePlayer));
+        animationCoroutine = StartCoroutine(DiceAnimationUI.instance.E_DiceAnimation(diceValue, this, MovePlayer));
+        animationCoroutine = StartCoroutine(DiceAnimationUI.instance.E_DiceAnimation(diceValue, this, MovePlayer));
         /*MovePlayer(diceValue);*/
     }
 
@@ -132,6 +132,7 @@ public class DicePlayManager : MonoBehaviour
 
         if (currentTileIndex >= mapTiles.Count) // 전체 인덱스(한바퀴)보다 크면
             currentTileIndex -= mapTiles.Count; // 빼라
+        
         Debug.Log($"{direction}");
         Player.instance.Move(GetTilePosition(currentTileIndex));
         
@@ -152,10 +153,13 @@ public class DicePlayManager : MonoBehaviour
             if (tmpIndex >= mapTiles.Count)
                 tmpIndex -= mapTiles.Count;
 
-            bool isPassed = mapTiles[tmpIndex].TryGetComponent(out TileInfo_Star tmpStarTile);
+            /*bool isPassed = mapTiles[tmpIndex].TryGetComponent(out TileInfo_Star tmpStarTile);
             if (isPassed)
-                starScore += tmpStarTile.starValue;
+                starScore += tmpStarTile.starValue;*/
             // 그냥 isPassed를 정의하지 않고 if조건에 넣어버리면 코드를 짧게 할 수도 있다. 
+
+            if (mapTiles[tmpIndex].TryGetComponent(out TileInfo_Star tmpStarTile))
+                starScore += tmpStarTile.starValue;
         }
 
 
