@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     int _direction;     // +1 : right, -1 : left
     public int direction
     {
-        get { return _direction; }
+        
         set {
             if (value < 0)
             {
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
                 transform.eulerAngles = Vector3.zero;
             }
         }
+        get { return _direction; }
     }
 
     public PlayerState state;
@@ -85,10 +86,8 @@ public class PlayerController : MonoBehaviour
         {
             if (Mathf.Abs(h) > moveInputOffset)
             {
-
                 move.x = h;
                 if (state == PlayerState.Idle)
-                    /*state = PlayerState.Run;*/
                     ChangePlayerState(PlayerState.Run);
             }
             else
@@ -102,9 +101,6 @@ public class PlayerController : MonoBehaviour
         // 점프
         if (Input.GetKey(KeyCode.Space))        // LeftAlt
         {
-
-            
-
             if(groundDetector.isDetected &&
                 state!= PlayerState.Jump &&
                 state != PlayerState.Fall)
@@ -112,8 +108,6 @@ public class PlayerController : MonoBehaviour
                 /*state = PlayerState.Jump;
                 jumpState = JumpState.Prepare;*/
                 ChangePlayerState(PlayerState.Jump);
-
-
             }
             // crouchupdate머신 에서 점프하면 아래로 내려가는 알고리즘
             if (Input.GetKey(KeyCode.DownArrow))
@@ -144,6 +138,7 @@ public class PlayerController : MonoBehaviour
             if (state != PlayerState.Attack &&
                 state != PlayerState.DashAttack)
                 ChangePlayerState(PlayerState.DashAttack);
+            // 공격중에 대시공격을 하는 것을 방지
         }
         UpdatePlayerState(); // 애니메이션과 연결하기 위해 Animater를 추가해준다. 
     }
@@ -244,6 +239,9 @@ public class PlayerController : MonoBehaviour
                 break;
             case PlayerState.Attack:
                 UpdateAttackState();
+                break;
+            case PlayerState.DashAttack:
+                UpdateDashAttackState();
                 break;
             case PlayerState.Hurt:
                 UpdateHurtState();
@@ -433,7 +431,7 @@ public class PlayerController : MonoBehaviour
                 break;
             case DashAttackState.Prepare:
                 isMoveable = false;
-                animator.Play("DashAttack");
+                animator.Play("Skill");
                 animationTimer = dashAttackTime;
                 dashAttackState++;
                 break;
@@ -516,7 +514,7 @@ public class PlayerController : MonoBehaviour
             case DieState.Idle:
                 break;
             case DieState.Prepare:
-                animator.Play("die");
+                animator.Play("Death");
                 animationTimer = dieTime;
                 dieState++;
                 break;

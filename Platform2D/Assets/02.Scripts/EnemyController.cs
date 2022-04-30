@@ -282,7 +282,7 @@ public class EnemyController : MonoBehaviour
             case HurtState.Idle:
                 break;
             case HurtState.Prepare:
-                animator.Play("hurt");
+                animator.Play("Hurt");
                 animationTimer = hurtTime;
                 hurtState++;
                 break;
@@ -311,7 +311,7 @@ public class EnemyController : MonoBehaviour
             case DieState.Idle:
                 break;
             case DieState.Prepare:
-                animator.Play("die");
+                animator.Play("Death");
                 animationTimer = dieTime;
                 dieState++;
                 break;
