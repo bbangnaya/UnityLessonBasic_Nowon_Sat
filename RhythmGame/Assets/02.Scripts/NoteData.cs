@@ -21,4 +21,5 @@ public class NoteData
 {
     public float time;
     public KeyCode keyCode;
+    public float speed;
 }

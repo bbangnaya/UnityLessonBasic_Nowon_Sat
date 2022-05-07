@@ -11,6 +11,4 @@ public class SceneMover : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
-
-
 }
