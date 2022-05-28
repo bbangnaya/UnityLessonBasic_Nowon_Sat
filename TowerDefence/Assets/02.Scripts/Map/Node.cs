@@ -33,7 +33,6 @@ public class Node : MonoBehaviour
                 rend.material.color = buildNotAvailableColor;
             }
         }
-        rend.material.color = buildAvailableColor;
     }
 
     private void OnMouseExit()

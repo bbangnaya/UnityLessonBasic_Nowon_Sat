@@ -10,17 +10,17 @@ public class Enemy : MonoBehaviour
     {
         set
         {
-/*            if (value < 0)
-                value = 0;*/
+            if (value < 0)
+                value = 0;
 
             _hp = value;
             hpBar.value = _hp / hpMax;
-/*
-            Destroy(gameObject);*/
+
+            Destroy(gameObject);
         }
         get
         {
-            return _hp;// 언더바 꼭 확인하기
+            return _hp;     // 언더바 꼭 확인하기
         }
     }
     public float hpMax;
@@ -29,10 +29,5 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         hp = hpMax;
-    }
-    private void Update()
-    {
-        if (hp < 0)
-            Destroy(gameObject);
     }
 }

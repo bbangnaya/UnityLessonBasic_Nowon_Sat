@@ -43,7 +43,7 @@ public class TowerHandler : MonoBehaviour
     private void Awake()
     {
         if (instance == null)
-            Destroy(this);
+            Destroy(instance);      // 오류 : instance자리에 this가 있었다. 
         instance = this;
         gameObject.SetActive(false);
     }

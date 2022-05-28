@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4045998965270258173}
+  - component: {fileID: 4191202359409656461}
   - component: {fileID: 7684243571990223543}
   - component: {fileID: 6203406223440525793}
   - component: {fileID: 3215074703071445422}
-  - component: {fileID: 4191202359409656461}
   m_Layer: 0
   m_Name: Node
   m_TagString: Untagged
@@ -34,6 +34,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4191202359409656461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3648696013975920133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ee9437e843e8d45a16d78a50bb5969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerOffsetY: 0.5
+  buildAvailableColor: {r: 0.114498034, g: 0.7830189, b: 0.20139052, a: 0.78431374}
+  buildNotAvailableColor: {r: 0.8396226, g: 0.09109115, b: 0.09109115, a: 0.78431374}
 --- !u!33 &7684243571990223543
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -96,18 +111,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4191202359409656461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648696013975920133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48ee9437e843e8d45a16d78a50bb5969, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerOffsetY: 0.5
-  buildAvailableColor: {r: 0.114498034, g: 0.7830189, b: 0.20139052, a: 0.78431374}
-  buildNotAvailableColor: {r: 0.8396226, g: 0.09109115, b: 0.09109115, a: 0.78431374}

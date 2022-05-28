@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 레벨에 대한 정보 에셋을 가져다 쓰기위한 클래스
+/// </summary>
 public class LevelInfoAssets : MonoBehaviour
 {
     private static LevelInfoAssets _instance;
-
     public static LevelInfoAssets instance
     {
         get
@@ -54,6 +56,4 @@ public class LevelInfoAssets : MonoBehaviour
         }
         return null;
     }
-
-
 }
