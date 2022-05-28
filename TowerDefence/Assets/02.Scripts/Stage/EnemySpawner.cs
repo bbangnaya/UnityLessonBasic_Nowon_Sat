@@ -80,6 +80,7 @@ public class EnemySpawner : MonoBehaviour
                         Instantiate(spawnElements[tmpStage][i].prefab,
                                     WayPoints.instance.GetFirstWayPoint().position,
                                     Quaternion.identity);
+                        Debug.Log($"{spawnElements[tmpStage][i].prefab.name}"); // 소환했다고 디버그는 찍히는데 소환이 안됨.
                         counts[tmpStage][i]--;
                         timers[tmpStage][i] = spawnElements[tmpStage][i].delay;
                     }

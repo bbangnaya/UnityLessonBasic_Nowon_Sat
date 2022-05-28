@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LevelInfo0
   m_EditorClassIdentifier: 
   level: 0
+  initMoney: 300
   stageInfos:
   - stage: 1
     enemiesElements:
@@ -30,5 +31,5 @@ MonoBehaviour:
       num: 5
       delay: 1
     - prefab: {fileID: 2435555020029116324, guid: 61b7a4a63d0855840875993e2c8b7bf1, type: 3}
-      num: 0
-      delay: 0
+      num: 1
+      delay: 2

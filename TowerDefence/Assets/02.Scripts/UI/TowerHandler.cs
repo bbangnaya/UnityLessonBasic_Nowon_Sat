@@ -15,7 +15,7 @@ public class TowerHandler : MonoBehaviour
             return selectedTowerInfo != null ? true : false;
         }
     }
-    private TowerInfo selectedTowerInfo;
+    public TowerInfo selectedTowerInfo;
 
     public void SetUp(TowerInfo towerInfo)
     {
@@ -24,6 +24,8 @@ public class TowerHandler : MonoBehaviour
         if (previewTower != null)
             Destroy(previewTower);
         previewTower = Instantiate(PreviewTowerAssets.GetPreviewTower(selectedTowerInfo.type),transform);
+        // 미리보기 타워들을 가져와서 소환하는 코드
+        // 일반 타워들도 소환하는 스크립트 추가
 
     }
 

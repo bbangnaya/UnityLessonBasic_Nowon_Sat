@@ -5,7 +5,7 @@ using System.Linq;
 
 public class Tower : MonoBehaviour
 {
-    public TowerInfo Info;
+    public TowerInfo info;
     public LayerMask enemyLayer;
     public float detectRange;       // 공격반경
 

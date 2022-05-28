@@ -19,6 +19,17 @@ public class LevelInfoAssets : MonoBehaviour
     }
 
     public List<LevelInfo> levelInfos = new List<LevelInfo>();
+
+    /// <summary>
+    /// 레벨 정보 반환
+    /// </summary>
+    /// <param name="level"> 가져오고 싶은 레벨 정보</param>
+    /// <returns></returns>
+    public static LevelInfo GetLevelInfo(int level)
+    {
+        return instance.levelInfos.Find(x => x.level == level);
+    }
+
     /// <summary>
     /// 특정 레벨의 특정 스테이지 정보를 반환함
     /// </summary>
@@ -27,30 +38,30 @@ public class LevelInfoAssets : MonoBehaviour
     /// <returns></returns>
     public static StageInfo GetStageInfo(int level, int stage)
     {
-        // 찾고자 하는 레벨 정보 검색
+        // 찾고자하는 레벨 정보 검색
         LevelInfo levelInfo = instance.levelInfos.Find(x => x.level == level);
-        
+
         // 레벨 정보 검색 성공시
         if (levelInfo != null)
         {
-            // 해당 레벨의 찾고자 하는 스테이지 정보 검색
+            // 해당 레벨의 찾고자하는 스테이지 정보 검색
             return levelInfo.stageInfos.Find(x => x.stage == stage);
         }
         return null;
     }
 
-    /// <summary>
+     /// <summary>
     /// 특정 레벨의 모든 스테이지 정보를 반환
     /// </summary>
-    /// <param name="level"> 검색할 레벨 </param>
+    /// <param name="level"> 검색할 레벨</param>
     /// <returns></returns>
     public static StageInfo[] GetAllStageInfo(int level)
     {
-        // 찾고자 하는 레벨 정보 검색
+        // 찾고자하는 레벨 정보 검색
         LevelInfo levelInfo = instance.levelInfos.Find(x => x.level == level);
 
         // 레벨 정보 검색 성공시
-        if(levelInfo != null)
+        if (levelInfo != null)
         {
             return levelInfo.stageInfos.ToArray();
         }

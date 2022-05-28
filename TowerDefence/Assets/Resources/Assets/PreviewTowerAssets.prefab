@@ -45,3 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewTowers:
   - {fileID: 4412020686708836031, guid: 115b7f50acbc039478e07a05c776fab8, type: 3}
+  - {fileID: 4412020686708836031, guid: e5ad1d5037e78604ba5f74686529ac9f, type: 3}
