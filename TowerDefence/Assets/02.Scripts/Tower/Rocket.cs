@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
-    public float speed;
-    private float _damage;
+
     public LayerMask touchLayer;
     public LayerMask targetLayer;
+
     public float explosionRange;
+    public float speed;
+    private float _damage;
+
     private Vector3 moveVec;
     private Transform tr;
 

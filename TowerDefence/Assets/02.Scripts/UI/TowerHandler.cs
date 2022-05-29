@@ -17,10 +17,13 @@ public class TowerHandler : MonoBehaviour
     }
     public TowerInfo selectedTowerInfo;
 
+    // 미리보기 타워들을 가져와서 소환하는 코드
     public void SetUp(TowerInfo towerInfo)
     {
         selectedTowerInfo = towerInfo;
         gameObject.SetActive(true);
+        Debug.Log($"{selectedTowerInfo.name}");
+        
         if (previewTower != null)
             Destroy(previewTower);
         previewTower = Instantiate(PreviewTowerAssets.GetPreviewTower(selectedTowerInfo.type),transform);

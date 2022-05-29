@@ -50,14 +50,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 32768
   detectRange: 3
-  rotatePoint: {fileID: 400000, guid: 67a055578b26444708b7df8956cd1336, type: 3}
+  rotatePoint: {fileID: 6612650243395534443}
   target: {fileID: 0}
   rocketPrefab: {fileID: 8885830505825675473, guid: e72b2c833ab7cae4b8862f2a43ff66c7, type: 3}
   damage: 2
   reloadTime: 2
   reloadTimer: 0
   firePoints:
-  - {fileID: 0}
+  - {fileID: 2412462814502066506}
 --- !u!1 &8938565429255505306
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +81,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8938565429255505306}
-  m_LocalRotation: {x: -0.0031378877, y: -0.0064551267, z: 0.001261938, w: 0.9999735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0017068111, y: 0.29375973, z: 0.06306666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

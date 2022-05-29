@@ -5,10 +5,11 @@ using UnityEngine;
 public class Tower_RocketLauncher : Tower
 {
     public GameObject rocketPrefab;
-    public float damage;
+    public int damage;
     public float reloadTime;
     public float reloadTimer;
     [SerializeField] private Transform[] firePoints;
+
     protected override void Update()
     {
         base.Update();

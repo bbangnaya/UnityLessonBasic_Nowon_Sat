@@ -174,8 +174,13 @@ MonoBehaviour:
   target: {fileID: 0}
   rocketPrefab: {fileID: 8885830505825675473, guid: e72b2c833ab7cae4b8862f2a43ff66c7, type: 3}
   damage: 20
-  reloadTime: 0
+  reloadTime: 1.5
   reloadTimer: 0
+  firePoints:
+  - {fileID: 8967284747636542660}
+  - {fileID: 1700423088514311301}
+  - {fileID: 3415593019856408004}
+  - {fileID: 2099710896152577097}
 --- !u!1001 &8118961950492701403
 PrefabInstance:
   m_ObjectHideFlags: 0

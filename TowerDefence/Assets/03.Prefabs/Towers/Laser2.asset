@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Laser2
   m_EditorClassIdentifier: 
   type: 2
-  upgradeLevel: 1
-  buildPrice: 150
-  sellPrice: 120
+  upgradeLevel: 2
+  buildPrice: 200
+  sellPrice: 150
   icon: {fileID: 21300000, guid: 68d28994873629b44ad6da85cc2c2663, type: 3}

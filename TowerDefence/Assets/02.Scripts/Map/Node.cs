@@ -17,11 +17,21 @@ public class Node : MonoBehaviour
         get { return towerBuilt.info; }
     }
 
-/*    public TowerInfo GetTowerInfo()
+    // 건설
+    public void BuildTower(GameObject towerPrefab)
     {
-        return towerBuilt.info;
-    }*/
+        towerBuilt = Instantiate(towerPrefab,
+                                 transform.position + Vector3.up * towerOffsetY,
+                                 Quaternion.identity,
+                                 transform).GetComponent<Tower>();
+        LevelManager.instance.money -= towerInfo.buildPrice;
+    }
 
+    public void DestroyTower()
+    {
+        Destroy(towerBuilt.gameObject);
+        towerBuilt = null;
+    }
 
     private void Awake()
     {
@@ -46,7 +56,7 @@ public class Node : MonoBehaviour
         }
     }
 
-
+    // 여기서 문제(01:05:00)
     private void OnMouseDown()
     {
         // 타워를 선택했는지 여부 && towerBuilt = 건설여부, null 체크 
@@ -76,19 +86,7 @@ public class Node : MonoBehaviour
         }                       
     }
 
-    public void BuildTower(GameObject towerPrefab)
-    {
-        towerBuilt = Instantiate(towerPrefab,
-                                        transform.position + Vector3.up * towerOffsetY,
-                                        Quaternion.identity,
-                                        transform).GetComponent<Tower>();
-    }
 
-    public void DestroyTower()
-    {
-        Destroy(towerBuilt.gameObject);
-        towerBuilt = null;
-    }
 
     private void OnMouseExit()
     {

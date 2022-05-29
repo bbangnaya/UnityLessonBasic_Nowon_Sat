@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0a95934fc1ebb4eb1cb8cdbdc3bf14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Info: {fileID: 11400000, guid: 11cdce2df6d0bf941a45ba18089e99b6, type: 2}
+  info: {fileID: 11400000, guid: 11cdce2df6d0bf941a45ba18089e99b6, type: 2}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 32768
   detectRange: 6
-  rotatePoint: {fileID: 400018, guid: 7b4f0cb8fc3314059b88194196134996, type: 3}
+  rotatePoint: {fileID: 8152639880031602150}
   target: {fileID: 0}
   damage: 10
   reloadTime: 0.5

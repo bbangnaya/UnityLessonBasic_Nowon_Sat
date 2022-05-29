@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RocketLauncher2
   m_EditorClassIdentifier: 
   type: 1
-  upgradeLevel: 1
-  buildPrice: 150
+  upgradeLevel: 2
+  buildPrice: 100
   sellPrice: 120
   icon: {fileID: 21300000, guid: 414c48a3dad2e054b811a11b617a1561, type: 3}

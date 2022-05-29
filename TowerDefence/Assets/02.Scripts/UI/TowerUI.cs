@@ -19,6 +19,7 @@ public class TowerUI : MonoBehaviour
     private float _offsetY = 1f;
     private Color _textColorOrigin;
 
+
     public void Upgrade()
     {
 
@@ -87,7 +88,7 @@ public class TowerUI : MonoBehaviour
         // ÆÈ±â ¹öÆ°
         sellPriceText.text = _node.towerInfo.sellPrice.ToString();
 
-        gameObject.SetActive(false);
+        gameObject.SetActive(true);
 
     }
 
