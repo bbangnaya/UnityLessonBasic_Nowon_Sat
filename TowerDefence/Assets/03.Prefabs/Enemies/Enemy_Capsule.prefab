@@ -513,3 +513,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpMax: 20
   hpBar: {fileID: 6527548473134999169}
+  dieEffect: {fileID: 1258236998421335783, guid: 45076526ff47d724cb7102216818bffc, type: 3}

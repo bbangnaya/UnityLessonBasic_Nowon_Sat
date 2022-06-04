@@ -32,6 +32,7 @@ public class Tower : MonoBehaviour
             // 오름차순 정렬. 여기서 가까운 놈은 0번째 배열값을 가져온다.
             target = cols[0].transform;
             rotatePoint.LookAt(target);
+
         }
         else
         {
