@@ -20,7 +20,7 @@ public class PlayerAnimator : MonoBehaviour
     // 여기서 name은 animator의 statemachine의 파라미터이다.
     // bool, float, int, trigger 를 세팅할 수 있는 함수 4개 세팅
     public void SetBool(string name, bool value) =>
-        animator.SetBool(name, value);
+        animator.SetBool(name, value);//
     public void SetFloat(string name, float value) =>
         animator.SetFloat(name, value);
     public void SetInt(string name, int value) =>

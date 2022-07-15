@@ -612,8 +612,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccbcc21aef8d1014e8eb9e31eb32eba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyCode: 107
+  keyCode: 114
   playerState: 3
+  state: 0
+  comboTimer: 0
+--- !u!114 &919132148448496576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148448496570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd1e15810b30d4479f279c635873c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyCode: 0
+  playerState: 1
   state: 0
 --- !u!1001 &3185608756181359191
 PrefabInstance:

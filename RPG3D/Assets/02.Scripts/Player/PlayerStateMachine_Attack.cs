@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine_Attack : PlayerStateMachine
 {
-    public Weapon1 weapon1;
+    // public Weapon1 weapon1;
 
     private int maxCombo = 4;
     private int currentCombo = 0;
@@ -33,7 +33,7 @@ public class PlayerStateMachine_Attack : PlayerStateMachine
                 break;
             case State.Prepare:
                 playerAnimator.SetTrigger("DoAttack");
-                playerAnimator.SetBool("FinishAttack", false);
+                // playerAnimator.SetBool("FinishAttack", false);
                 comboTimer = GetComboTime(currentCombo);
                 doCombo = false;
                 state++;
@@ -43,7 +43,7 @@ public class PlayerStateMachine_Attack : PlayerStateMachine
                     state++;
                 break;
             case State.Casting:
-                weapon1.doCasting = true;
+                // weapon1.doCasting = true;   // null reference
                 state++;
                 break;
             case State.OnAction:
@@ -56,13 +56,15 @@ public class PlayerStateMachine_Attack : PlayerStateMachine
                 }
 
                 if (comboTimer < 0.5f) {
-                    if (doCombo) {
+                    if (doCombo)
+                    {
                         state = State.Prepare;
                         currentCombo++;
                     }
                     else {
-                        playerAnimator.SetBool("FinishAttack", true);
-                        weapon1.doCasting = false;
+                        Debug.Log("Finish Attack");
+                        playerAnimator.SetTrigger("FinishAttack");
+                        // weapon1.doCasting = false;
                         currentCombo = 0;
                         state++;
                     }
