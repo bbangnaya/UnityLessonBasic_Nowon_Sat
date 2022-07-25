@@ -69,10 +69,11 @@ public class PlayerMove : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        if (groundSensor.isOn == false)
+        if (groundSensor.isOn == false) {
             // rb.position += Vector3.down * gravity * Time.fixedDeltaTime;
             rb.AddForce(Vector3.down * gravity, ForceMode.VelocityChange);
-
+            //rb.velocity += Vector3.down * gravity * Time.fixedDeltaTime;
+        }
         rb.position += _move * Time.fixedDeltaTime;
     }
 }

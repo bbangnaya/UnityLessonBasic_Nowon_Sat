@@ -18,11 +18,11 @@ TagManager:
   - Player
   - PlayerSensor
   - 
+  - Enemy
   - 
   - 
-  - 
-  - 
-  - 
+  - Item
+  - ItmeTrigger
   - 
   - 
   - 

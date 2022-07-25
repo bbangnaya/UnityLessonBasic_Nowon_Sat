@@ -31,11 +31,15 @@ public class Weapon1 : Equipment {
 
     private void OnTriggerStay(Collider other) {
         Debug.Log($"Target Casted : {other.name}");
-        if (_doCasting) {
-            if (1 << other.gameObject.layer == targetLayer) {
-                if (other.gameObject.TryGetComponent(out Enemy enemy)) {
+        if (_doCasting)
+        {
+            if (1 << other.gameObject.layer == targetLayer)
+            {
+                if (other.gameObject.TryGetComponent(out Enemy enemy))
+                {
                     int id = other.gameObject.GetInstanceID();
-                    if (targets.TryGetValue(id, out GameObject target) == false) {
+                    if (targets.TryGetValue(id, out GameObject target) == false)
+                    {
                         targets.Add(id, target);
                         Debug.Log($"Target Casted : {id}");
                     }
